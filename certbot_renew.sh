@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Добавляем PATH
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 # Telegram bot settings
 BOT_TOKEN=""
 CHAT_ID=""
