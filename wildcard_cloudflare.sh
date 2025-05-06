@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Добавляем PATH
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 # ==== Настройки ====
 LOG_FILE="/var/log/certbot_renew.log"
 ERROR_LOG="/var/log/certbot_errors.log"
